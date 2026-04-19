@@ -1,41 +1,17 @@
+body.bg {
+    background: url("assets/bg.jpg") center/cover no-repeat fixed;
+}
+
 body {
+    font-family: Arial;
     margin: 0;
-    font-family: 'Segoe UI';
 }
 
-/* BACKGROUND */
-.bg {
-    background: url("assets/bg.jpg") no-repeat center/cover;
+.sidebar {
+    width: 220px;
     height: 100vh;
-}
-
-/* NAVBAR */
-.navbar {
     background: #2c3e50;
     color: white;
-    padding: 15px;
-}
-
-.navbar a {
-    color: white;
-    float: right;
-}
-
-/* CONTAINER */
-.container {
-    width: 300px;
-    margin: 100px auto;
-    padding: 20px;
-    background: rgba(255,255,255,0.2);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-}
-
-/* SIDEBAR */
-.sidebar {
-    width: 200px;
-    height: 100vh;
-    background: #34495e;
     position: fixed;
     padding: 20px;
 }
@@ -44,25 +20,24 @@ body {
     display: block;
     color: white;
     margin: 10px 0;
+    text-decoration: none;
 }
 
-/* MAIN */
 .main {
-    margin-left: 220px;
+    margin-left: 240px;
     padding: 20px;
 }
 
-/* INPUT */
-input {
+.container {
+    width: 300px;
+    margin: 100px auto;
+    background: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, button {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
-}
-
-/* BUTTON */
-button {
-    padding: 10px;
-    background: #27ae60;
-    color: white;
-    border: none;
 }
