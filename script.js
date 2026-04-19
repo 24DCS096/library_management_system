@@ -2,11 +2,19 @@ let books = JSON.parse(localStorage.getItem("books")) || [];
 let issued = JSON.parse(localStorage.getItem("issued")) || [];
 
 function login() {
-    window.location.href = "home.html";
+    let role = document.getElementById("role").value;
+    if (role === "admin")
+        window.location.href = "admin.html";
+    else
+        window.location.href = "student.html";
 }
 
 function signup() {
-    window.location.href = "home.html";
+    let role = document.getElementById("role").value;
+    if (role === "admin")
+        window.location.href = "admin.html";
+    else
+        window.location.href = "student.html";
 }
 
 function addBook() {
