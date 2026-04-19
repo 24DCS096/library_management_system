@@ -1,18 +1,18 @@
 body.bg {
-    background: url("assets/bg.jpg") center/cover no-repeat fixed;
+    background: url("assets/bg.jpg") no-repeat center/cover;
 }
 
-body {
-    font-family: Arial;
-    margin: 0;
+.container, .home {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
 }
 
 .sidebar {
-    width: 220px;
+    width: 200px;
     height: 100vh;
-    background: #2c3e50;
-    color: white;
     position: fixed;
+    background: #2c3e50;
     padding: 20px;
 }
 
@@ -20,24 +20,15 @@ body {
     display: block;
     color: white;
     margin: 10px 0;
-    text-decoration: none;
 }
 
 .main {
-    margin-left: 240px;
+    margin-left: 220px;
     padding: 20px;
-}
-
-.container {
-    width: 300px;
-    margin: 100px auto;
-    background: rgba(255,255,255,0.8);
-    padding: 20px;
-    border-radius: 10px;
 }
 
 input, button {
-    width: 100%;
+    display: block;
+    margin: 10px;
     padding: 10px;
-    margin: 5px 0;
 }
