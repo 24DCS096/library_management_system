@@ -1,5 +1,6 @@
 body.bg {
-    background: url("bg.jpg") center/cover no-repeat fixed;
+    background: url("https://24dcs096.github.io/library_management_system/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 body {
