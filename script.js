@@ -5,6 +5,10 @@ function login() {
     window.location.href = "home.html";
 }
 
+function signup() {
+    window.location.href = "home.html";
+}
+
 function addBook() {
     let id = bookId.value;
     let name = bookName.value;
