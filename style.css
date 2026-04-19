@@ -9,7 +9,7 @@
 /* FULL PAGE BACKGROUND (FOR ALL PAGES) */
 body {
     min-height: 100vh;
-    background-image: url("assets/bg.jpg"); /* LOCAL PATH */
+    background-image: url("bg.jpg"); /* LOCAL PATH */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
