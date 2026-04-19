@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Library System</title>
+    <title>Library Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg">
 
-<h1>Library Management System</h1>
+<div class="container">
+    <h2>Library System</h2>
 
-<div class="form">
-    <input type="text" id="title" placeholder="Book Title">
-    <input type="text" id="author" placeholder="Author">
-    <input type="number" id="quantity" placeholder="Quantity">
-    
-    <button onclick="addBook()">Add Book</button>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+
+    <select id="role">
+        <option value="admin">Admin</option>
+        <option value="student">Student</option>
+    </select>
+
+    <button onclick="login()">Login</button>
+    <button onclick="signup()">Sign Up</button>
 </div>
 
-<div id="bookList"></div>
-
 <script src="script.js"></script>
-
 </body>
 </html>
