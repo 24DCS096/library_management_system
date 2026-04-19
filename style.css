@@ -1,18 +1,42 @@
-body.bg {
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+/* BACKGROUND */
+.bg {
     background: url("assets/bg.jpg") no-repeat center/cover;
+    height: 100vh;
 }
 
-.container, .home {
-    text-align: center;
-    margin-top: 100px;
+/* NAVBAR */
+.navbar {
+    background: #2c3e50;
     color: white;
+    padding: 15px;
 }
 
+.navbar a {
+    color: white;
+    float: right;
+}
+
+/* CONTAINER */
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+/* SIDEBAR */
 .sidebar {
     width: 200px;
     height: 100vh;
+    background: #34495e;
     position: fixed;
-    background: #2c3e50;
     padding: 20px;
 }
 
@@ -22,13 +46,23 @@ body.bg {
     margin: 10px 0;
 }
 
+/* MAIN */
 .main {
     margin-left: 220px;
     padding: 20px;
 }
 
-input, button {
-    display: block;
-    margin: 10px;
+/* INPUT */
+input {
+    width: 100%;
     padding: 10px;
+    margin: 5px 0;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    background: #27ae60;
+    color: white;
+    border: none;
 }
