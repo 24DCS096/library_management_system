@@ -1,4 +1,3 @@
 [
-  { "id": "101", "name": "C Programming", "author": "Dennis" },
-  { "id": "102", "name": "Java", "author": "James" }
+  { "id": "1", "name": "C Programming", "author": "Dennis" }
 ]
