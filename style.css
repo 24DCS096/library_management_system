@@ -13,7 +13,7 @@ html, body {
 
 /* BACKGROUND IMAGE (IMPORTANT FIX) */
 body.bg {
-    background-image: url("https://24dcs096.github.io/library_management_system/assets/bg.jpg");
+    background-image: url("https://24dcs096.github.io/library_management_system/bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
